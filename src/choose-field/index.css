@@ -1,0 +1,87 @@
+.chooseField {
+  max-width: 760px;
+  padding: 24px 16px;
+  margin: 0 auto; 
+  height: 100%;
+}
+
+.chooseFieldTitle {
+  margin-bottom: 4px;
+}
+
+.chooseFieldDesc {
+  color: var(--textCommonSecondary);
+}
+
+.chooseFieldLoading {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.chooseFieldError {
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.fieldList {
+  border: 1px solid var(--lineColor);
+  border-radius: 8px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  max-height: calc(100% - 160px);
+  overflow: auto;
+}
+
+.fieldListItem {
+  display: flex;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--lineColor);
+  align-items: center;
+}
+
+.fieldListItemLeft {
+  width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: none !important;
+  color: var(--textCommonSecondary);
+}
+
+.fieldListItemDelete {
+  margin-left: 16px;
+  flex: none !important;
+}
+
+.fieldListItem > div {
+  flex: 1;
+}
+
+.funcAlert {
+  position: fixed;
+  z-index: 10;
+  right: 24px;
+  top: 16px;
+}
+
+.chooseFieldErrorText,
+.chooseFieldMes {
+  color: var(--textDangerDefault);
+}
+
+.chooseFieldText {
+  margin: 24px 0;
+  color: var(--textCommonSecondary);
+  display: flex
+}
+
+.chooseFieldText a {
+  margin-left: 8px;
+}
+
+.chooseFieldAction {
+  display: flex;
+  justify-content: space-between;
+}

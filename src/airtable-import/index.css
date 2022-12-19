@@ -1,0 +1,36 @@
+.importAddRecord {
+  text-align: center;
+}
+
+.importAddRecordImg {
+  max-width: 160px;
+}
+
+.importAddRecordBtn {
+  width: 160px;
+}
+
+.importAddField {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.importCompleted {
+  color: var(--textSuccessDefault);
+}
+
+.importStoped {
+  color: var(--textWarnDefault);
+}
+
+.importProcess {
+  margin: 24px 0;
+}
+
+.importAddRecordSuccess {
+  color: var(--textSuccessDefault);
+}
+
+.importAddRecordFail {
+  color: var(--textDangerDefault);
+}

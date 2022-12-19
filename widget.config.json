@@ -1,0 +1,22 @@
+{
+  "packageId": "wpkz6C07DNYug",
+  "spaceId": "spczxAHlFydX0",
+  "entry": "./src/index.tsx",
+  "name": {
+    "zh-CN": "Airtable 导入",
+    "en-US": "Import data from Airtable"
+  },
+  "icon": "./package_icon.png",
+  "cover": "./cover.png",
+  "authorIcon": "./author_icon.png",
+  "description": {
+    "zh-CN": "支持从 Airtable 导入数据到 APITable 中，快速开始使用 APITable 发展你的业务。",
+    "en-US": "Support importing data from Airtable to APITable, and quickly start using the APITable to develop your business."
+  },
+  "sandbox": true,
+  "authorName": "APITable",
+  "authorLink": "https://apitable.com",
+  "authorEmail": "developer@apitable.com",
+  "website": "https://help.apitable.com/docs/guide/intro-widget-import-from-airtable",
+  "globalPackageId": "wpk098vuAfpQa"
+}

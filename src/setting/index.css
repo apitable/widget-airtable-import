@@ -1,0 +1,14 @@
+.setting {
+  margin: 32px auto;
+  width: 360px;
+}
+
+.settingTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.setting .formSetting {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,28 @@
+.importContainer {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.importMain {
+  text-align: center;
+}
+
+.importMain .importMainError {
+  color: var(--textDangerDefault);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.importMain .title {
+  margin-bottom: 24px;
+}
+
+.isChecked svg {
+  fill: var(--textBrandDefault);
+}

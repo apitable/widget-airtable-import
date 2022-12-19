@@ -1,0 +1,19 @@
+.formInput {
+  margin-top: 24px;
+}
+
+.formInput .label {
+  margin-bottom: 4px;
+}
+
+.formInput .formInputRequired {
+  color: var(--textDangerDefault);
+  padding-right: 4px;
+}
+
+.formInput .formInputError {
+  margin-top: 4px;
+  color: var(--textDangerDefault);
+  font-size: 12px;
+  line-height: 18px;
+}

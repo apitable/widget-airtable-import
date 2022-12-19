@@ -1,0 +1,192 @@
+{
+  "strings": {
+    "start_import": {
+			"zh_CN": "开始导入",
+			"en_US": "Start import"
+		},
+    "start_import_title": {
+			"zh_CN": "点击下方按钮或展开小程序即可开始导入 Airtable 数据",
+			"en_US": "Click the button below or expand the applet to start importing airtable data"
+		},
+    "setting_title": {
+			"zh_CN": "请前往 Airtable 获取下方参数信息",
+			"en_US": "Please go to airtable to get the parameter information below"
+		},
+    "update_setting": {
+      "zh_CN": "修改配置",
+			"en_US": "Update setting"
+    },
+    "setting_valid": {
+      "zh_CN": "请先补全配置",
+			"en_US": "Please complete the configuration first"
+    },
+    "placeholder": {
+			"zh_CN": "请输入内容",
+			"en_US": "Please enter the content"
+		},
+    "optional": {
+      "zh_CN": "可选",
+			"en_US": "Optional"
+    },
+    "choose_field_type": {
+      "zh_CN": "请选择字段类型",
+			"en_US": "Please select a field type"
+    },
+    "form_valid": {
+      "zh_CN": "请填写正确的",
+      "en_US": "Please fill in the correct"
+    },
+    "no_edit_permission": {
+      "zh_CN": "无编辑权限",
+      "en_US": "No editing permission"
+    },
+    "over_200_fields": {
+      "zh_CN": "超出200列了，禁止导入",
+      "en_US": "More than 200 fields, import forbidden"
+    },
+    "get_data": {
+      "zh_CN": "获取 Airtable 数据中",
+      "en_US": "Getting airtable data"
+    },
+    "field_edit_title": {
+      "zh_CN": "请为下面待导入的 Airtable 字段选择字段类型，导入完成后将在维格表中创建相应的字段并填充对应的数据",
+			"en_US": "Please select the field type for the airtable field to be imported below. After importing, the corresponding field will be created in the APITable and the corresponding data will be filled"
+    },
+    "pre_field_name": {
+      "zh_CN": "待导入的字段名",
+			"en_US": "Field name to be imported"
+    },
+    "field_type": {
+      "zh_CN": "字段类型",
+			"en_US": "Field type"
+    },
+    "pre": {
+      "zh_CN": "上一步",
+			"en_US": "Previous step"
+    },
+    "next": {
+      "zh_CN": "下一步",
+			"en_US": "Next step"
+    },
+    "create_fields": {
+      "zh_CN": "正在创建列",
+			"en_US": "Fields is being created"
+    },
+    "import_completed": {
+      "zh_CN": "数据导入完成",
+			"en_US": "Data import completed"
+    },
+    "import_stoped": {
+      "zh_CN": "数据导入中止",
+			"en_US": "Data import aborted"
+    },
+    "stop_import": {
+      "zh_CN": "中止导入",
+			"en_US": "Abort import"
+    },
+    "re_import": {
+      "zh_CN": "重新导入",
+			"en_US": "Import again"
+    },
+    "imported_record": {
+      "zh_CN": "已导入",
+			"en_US": "records"
+    },
+    "reset": {
+      "zh_CN": "修改配置",
+			"en_US": "Reconfigure"
+    },
+    "help": {
+      "zh_CN": "查看帮助",
+			"en_US": "View help"
+    },
+    "dot": {
+      "zh_CN": "，",
+			"en_US": ","
+    },
+    "tutorial": {
+      "zh_CN": "查看教程",
+			"en_US": "View tutorial"
+    },
+    "record_unit": {
+      "zh_CN": "行",
+			"en_US": "records"
+    },
+    "ok": {
+      "zh_CN": "确定",
+			"en_US": "Confirm"
+    },
+    "cancel": {
+      "zh_CN": "取消",
+			"en_US": "Cancel"
+    },
+    "waring_import_title": {
+      "zh_CN": "附件导入说明",
+			"en_US": "Attachment Import Instructions"
+    },
+    "waring_file_upload": {
+      "zh_CN": "检测到正在导入附件列，当前小程序仅支持导入不超过 10MB 的文件，超出的文件将被跳过，是否继续？",
+			"en_US": "It is detected that the attachment column is being imported. Currently, the applet only supports importing files not exceeding 10MB. Excess files will be skipped. Do you want to continue?"
+    },
+    "done": {
+      "zh_CN": "完成",
+			"en_US": "Finish"
+    },
+    "long_text": {
+      "zh_CN": "多行文本",
+			"en_US": "Long text"
+    },
+    "single_text": {
+      "zh_CN": "单行文本",
+			"en_US": "Single inline text"
+    },
+    "multi_select": {
+      "zh_CN": "多选",
+			"en_US": "Multi Select"
+    },
+    "select": {
+      "zh_CN": "单选",
+			"en_US": "Select"
+    },
+    "number": {
+      "zh_CN": "数字",
+			"en_US": "Number"
+    },
+    "date": {
+      "zh_CN": "日期",
+			"en_US": "Date"
+    },
+    "url": {
+      "zh_CN": "网址",
+			"en_US": "URL"
+    },
+    "email": {
+      "zh_CN": "邮箱",
+			"en_US": "Email"
+    },
+    "checkbox": {
+      "zh_CN": "勾选",
+			"en_US": "Checkbox"
+    },
+    "rate": {
+      "zh_CN": "评分",
+			"en_US": "Rating"
+    },
+    "currency": {
+      "zh_CN": "货币",
+			"en_US": "Currency"
+    },
+    "percent": {
+      "zh_CN": "百分比",
+			"en_US": "Percent"
+    },
+    "phone": {
+      "zh_CN": "电话",
+			"en_US": "Phone"
+    },
+    "attachment": {
+      "zh_CN": "附件",
+			"en_US": "Attachment"
+    }
+  }
+}
