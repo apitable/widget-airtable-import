@@ -924,8 +924,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css");
 /* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../context */ "../../../../../../../../../develop/widget-airtable-import/src/context.ts");
-/* harmony import */ var _space_img_success_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../space_img_success.png */ "../../../../../../../../../develop/widget-airtable-import/space_img_success.png");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx");
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -986,7 +985,6 @@ var __read = (undefined && undefined.__read) || function (o, n) {
 
 
 
-
 var AddRecord = function (props) {
     var records = props.records, fieldMap = props.fieldMap;
     var _a = __read((0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false), 2), importing = _a[0], setImporting = _a[1];
@@ -1039,7 +1037,7 @@ var AddRecord = function (props) {
                         return [4 /*yield*/, (0,_utils__WEBPACK_IMPORTED_MODULE_4__.getFileBlob)(rv.url)];
                     case 5:
                         fileBlob = _c.sent();
-                        if (!(fileBlob.size < _constants__WEBPACK_IMPORTED_MODULE_8__.MAX_FILE_SIZE)) return [3 /*break*/, 7];
+                        if (!(fileBlob.size < _constants__WEBPACK_IMPORTED_MODULE_7__.MAX_FILE_SIZE)) return [3 /*break*/, 7];
                         curFile = new File([fileBlob], rv.filename, {
                             type: rv.type
                         });
@@ -1110,7 +1108,7 @@ var AddRecord = function (props) {
         stopRef.current = true;
     };
     return react__WEBPACK_IMPORTED_MODULE_3___default().createElement("div", { className: _index_css__WEBPACK_IMPORTED_MODULE_5__["default"].importAddRecord },
-        !importing && !stopRef.current && react__WEBPACK_IMPORTED_MODULE_3___default().createElement("img", { className: _index_css__WEBPACK_IMPORTED_MODULE_5__["default"].importAddRecordImg, src: _space_img_success_png__WEBPACK_IMPORTED_MODULE_7__, alt: "succee image" }),
+        !importing && !stopRef.current && react__WEBPACK_IMPORTED_MODULE_3___default().createElement("img", { className: _index_css__WEBPACK_IMPORTED_MODULE_5__["default"].importAddRecordImg, src: "https://legacy-s1.apitable.com/space/2022/12/22/ea175fa9bbc54753bec4a0a4d85b3ede", alt: "succee image" }),
         react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_apitable_components__WEBPACK_IMPORTED_MODULE_0__.Typography, { variant: "h6", className: _index_css__WEBPACK_IMPORTED_MODULE_5__["default"].importProcess },
             !importing && !stopRef.current && react__WEBPACK_IMPORTED_MODULE_3___default().createElement("span", null,
                 (0,_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.t)(_utils__WEBPACK_IMPORTED_MODULE_4__.Strings.import_completed),
@@ -20315,17 +20313,6 @@ module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.c
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/space_img_success.png":
-/*!***************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/space_img_success.png ***!
-  \***************************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "assets/images/05df6544e732f9389872.png";
-
-/***/ }),
-
 /***/ "@apitable/components":
 /*!***************************************************************************************************************************************************!*\
   !*** external {"commonjs":"@apitable/components","commonjs2":"@apitable/components","amd":"@apitable/components","root":"_@apitable/components"} ***!
@@ -20470,26 +20457,6 @@ module.exports = JSON.parse('{"strings":{"start_import":{"zh_CN":"开始导入",
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
