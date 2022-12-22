@@ -9,7 +9,6 @@ import { getFileBlob, Strings } from '../utils';
 import { IFieldMap, IRecord } from '../types';
 import style from './index.css';
 import { Context } from '../context';
-import successImg from '../../space_img_success.png';
 import { MAX_FILE_SIZE } from '../constants';
 
 interface IAddRecord {
@@ -108,7 +107,7 @@ export const AddRecord: React.FC<IAddRecord> = props => {
   return (
     <div className={style.importAddRecord}>
       {!importing && !stopRef.current && (
-        <img className={style.importAddRecordImg} src={successImg} alt="succee image"/>
+        <img className={style.importAddRecordImg} src="https://legacy-s1.apitable.com/space/2022/12/22/ea175fa9bbc54753bec4a0a4d85b3ede" alt="succee image"/>
       )}
       <Typography variant="h6"  className={style.importProcess}>
         {!importing && !stopRef.current && (
