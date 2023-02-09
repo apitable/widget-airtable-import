@@ -58,7 +58,10 @@ export const AddRecord: React.FC<IAddRecord> = props => {
                       file: curFile,
                       datasheetId: datasheet.datasheetId,
                     });
-                    files.push(uploadRlt);
+                    files.push({
+                      ...uploadRlt,
+                      name: rv.filename,
+                    });
                   }
                 }
                 recordValue = files;
@@ -69,6 +72,8 @@ export const AddRecord: React.FC<IAddRecord> = props => {
               ) {
                 recordValue = recordValue.join(',');
               } else if (field.type !== FieldType.MultiSelect && typeof recordValue === 'object') {
+                recordValue = JSON.stringify(recordValue);
+              } else if (field.type === FieldType.Text && typeof recordValue === 'number') {
                 recordValue = JSON.stringify(recordValue);
               }
               newRecord[field.id] = recordValue;
