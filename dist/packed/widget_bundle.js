@@ -11,10 +11,10 @@
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css ***!
-  \******************************************************************************************************************************************************************/
+/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css ***!
+  \************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -22,16 +22,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".importAddRecord {\n  text-align: center;\n}\n\n.importAddRecordImg {\n  max-width: 160px;\n}\n\n.importAddRecordBtn {\n  width: 160px;\n}\n\n.importAddField {\n  margin-top: 40px;\n  text-align: center;\n}\n\n.importCompleted {\n  color: var(--textSuccessDefault);\n}\n\n.importStoped {\n  color: var(--textWarnDefault);\n}\n\n.importProcess {\n  margin: 24px 0;\n}\n\n.importAddRecordSuccess {\n  color: var(--textSuccessDefault);\n}\n\n.importAddRecordFail {\n  color: var(--textDangerDefault);\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,gCAAgC;AAClC;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,gCAAgC;AAClC;;AAEA;EACE,+BAA+B;AACjC","sourcesContent":[".importAddRecord {\n  text-align: center;\n}\n\n.importAddRecordImg {\n  max-width: 160px;\n}\n\n.importAddRecordBtn {\n  width: 160px;\n}\n\n.importAddField {\n  margin-top: 40px;\n  text-align: center;\n}\n\n.importCompleted {\n  color: var(--textSuccessDefault);\n}\n\n.importStoped {\n  color: var(--textWarnDefault);\n}\n\n.importProcess {\n  margin: 24px 0;\n}\n\n.importAddRecordSuccess {\n  color: var(--textSuccessDefault);\n}\n\n.importAddRecordFail {\n  color: var(--textDangerDefault);\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".importAddRecord {\n  text-align: center;\n}\n\n.importAddRecordImg {\n  max-width: 160px;\n}\n\n.importAddRecordBtn {\n  width: 160px;\n}\n\n.importAddField {\n  margin-top: 40px;\n  text-align: center;\n}\n\n.importCompleted {\n  color: var(--textSuccessDefault);\n}\n\n.importStoped {\n  color: var(--textWarnDefault);\n}\n\n.importProcess {\n  margin: 24px 0;\n}\n\n.importAddRecordSuccess {\n  color: var(--textSuccessDefault);\n}\n\n.importAddRecordFail {\n  color: var(--textDangerDefault);\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,gCAAgC;AAClC;;AAEA;EACE,6BAA6B;AAC/B;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,gCAAgC;AAClC;;AAEA;EACE,+BAA+B;AACjC","sourcesContent":[".importAddRecord {\n  text-align: center;\n}\n\n.importAddRecordImg {\n  max-width: 160px;\n}\n\n.importAddRecordBtn {\n  width: 160px;\n}\n\n.importAddField {\n  margin-top: 40px;\n  text-align: center;\n}\n\n.importCompleted {\n  color: var(--textSuccessDefault);\n}\n\n.importStoped {\n  color: var(--textWarnDefault);\n}\n\n.importProcess {\n  margin: 24px 0;\n}\n\n.importAddRecordSuccess {\n  color: var(--textSuccessDefault);\n}\n\n.importAddRecordFail {\n  color: var(--textDangerDefault);\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"importAddRecord": "importAddRecord",
@@ -49,10 +49,10 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 /***/ }),
 
-/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.css":
-/*!***************************************************************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.css ***!
-  \***************************************************************************************************************************************************************/
+/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.css":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.css ***!
+  \*********************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -60,16 +60,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".chooseField {\n  max-width: 760px;\n  padding: 24px 16px;\n  margin: 0 auto; \n  height: 100%;\n}\n\n.chooseFieldTitle {\n  margin-bottom: 4px;\n}\n\n.chooseFieldDesc {\n  color: var(--textCommonSecondary);\n}\n\n.chooseFieldLoading {\n  display:flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n}\n\n.chooseFieldError {\n  padding: 24px 16px;\n  text-align: center;\n}\n\n.fieldList {\n  border: 1px solid var(--lineColor);\n  border-radius: 8px;\n  margin-top: 32px;\n  margin-bottom: 32px;\n  max-height: calc(100% - 160px);\n  overflow: auto;\n}\n\n.fieldListItem {\n  display: flex;\n  padding: 8px 16px;\n  border-bottom: 1px solid var(--lineColor);\n  align-items: center;\n}\n\n.fieldListItemLeft {\n  width: 40%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  flex: none !important;\n  color: var(--textCommonSecondary);\n}\n\n.fieldListItemDelete {\n  margin-left: 16px;\n  flex: none !important;\n}\n\n.fieldListItem > div {\n  flex: 1;\n}\n\n.funcAlert {\n  position: fixed;\n  z-index: 10;\n  right: 24px;\n  top: 16px;\n}\n\n.chooseFieldErrorText,\n.chooseFieldMes {\n  color: var(--textDangerDefault);\n}\n\n.chooseFieldText {\n  margin: 24px 0;\n  color: var(--textCommonSecondary);\n  display: flex\n}\n\n.chooseFieldText a {\n  margin-left: 8px;\n}\n\n.chooseFieldAction {\n  display: flex;\n  justify-content: space-between;\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,cAAc;EACd,YAAY;AACd;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,iCAAiC;AACnC;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;EAClC,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,8BAA8B;EAC9B,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,yCAAyC;EACzC,mBAAmB;AACrB;;AAEA;EACE,UAAU;EACV,gBAAgB;EAChB,uBAAuB;EACvB,mBAAmB;EACnB,qBAAqB;EACrB,iCAAiC;AACnC;;AAEA;EACE,iBAAiB;EACjB,qBAAqB;AACvB;;AAEA;EACE,OAAO;AACT;;AAEA;EACE,eAAe;EACf,WAAW;EACX,WAAW;EACX,SAAS;AACX;;AAEA;;EAEE,+BAA+B;AACjC;;AAEA;EACE,cAAc;EACd,iCAAiC;EACjC;AACF;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,8BAA8B;AAChC","sourcesContent":[".chooseField {\n  max-width: 760px;\n  padding: 24px 16px;\n  margin: 0 auto; \n  height: 100%;\n}\n\n.chooseFieldTitle {\n  margin-bottom: 4px;\n}\n\n.chooseFieldDesc {\n  color: var(--textCommonSecondary);\n}\n\n.chooseFieldLoading {\n  display:flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n}\n\n.chooseFieldError {\n  padding: 24px 16px;\n  text-align: center;\n}\n\n.fieldList {\n  border: 1px solid var(--lineColor);\n  border-radius: 8px;\n  margin-top: 32px;\n  margin-bottom: 32px;\n  max-height: calc(100% - 160px);\n  overflow: auto;\n}\n\n.fieldListItem {\n  display: flex;\n  padding: 8px 16px;\n  border-bottom: 1px solid var(--lineColor);\n  align-items: center;\n}\n\n.fieldListItemLeft {\n  width: 40%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  flex: none !important;\n  color: var(--textCommonSecondary);\n}\n\n.fieldListItemDelete {\n  margin-left: 16px;\n  flex: none !important;\n}\n\n.fieldListItem > div {\n  flex: 1;\n}\n\n.funcAlert {\n  position: fixed;\n  z-index: 10;\n  right: 24px;\n  top: 16px;\n}\n\n.chooseFieldErrorText,\n.chooseFieldMes {\n  color: var(--textDangerDefault);\n}\n\n.chooseFieldText {\n  margin: 24px 0;\n  color: var(--textCommonSecondary);\n  display: flex\n}\n\n.chooseFieldText a {\n  margin-left: 8px;\n}\n\n.chooseFieldAction {\n  display: flex;\n  justify-content: space-between;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".chooseField {\n  max-width: 760px;\n  padding: 24px 16px;\n  margin: 0 auto; \n  height: 100%;\n}\n\n.chooseFieldTitle {\n  margin-bottom: 4px;\n}\n\n.chooseFieldDesc {\n  color: var(--textCommonSecondary);\n}\n\n.chooseFieldLoading {\n  display:flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n}\n\n.chooseFieldError {\n  padding: 24px 16px;\n  text-align: center;\n}\n\n.fieldList {\n  border: 1px solid var(--lineColor);\n  border-radius: 8px;\n  margin-top: 32px;\n  margin-bottom: 32px;\n  max-height: calc(100% - 160px);\n  overflow: auto;\n}\n\n.fieldListItem {\n  display: flex;\n  padding: 8px 16px;\n  border-bottom: 1px solid var(--lineColor);\n  align-items: center;\n}\n\n.fieldListItemLeft {\n  width: 40%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  flex: none !important;\n  color: var(--textCommonSecondary);\n}\n\n.fieldListItemDelete {\n  margin-left: 16px;\n  flex: none !important;\n}\n\n.fieldListItem > div {\n  flex: 1;\n}\n\n.funcAlert {\n  position: fixed;\n  z-index: 10;\n  right: 24px;\n  top: 16px;\n}\n\n.chooseFieldErrorText,\n.chooseFieldMes {\n  color: var(--textDangerDefault);\n}\n\n.chooseFieldText {\n  margin: 24px 0;\n  color: var(--textCommonSecondary);\n  display: flex\n}\n\n.chooseFieldText a {\n  margin-left: 8px;\n}\n\n.chooseFieldAction {\n  display: flex;\n  justify-content: space-between;\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,cAAc;EACd,YAAY;AACd;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,iCAAiC;AACnC;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;EAClC,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,8BAA8B;EAC9B,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,yCAAyC;EACzC,mBAAmB;AACrB;;AAEA;EACE,UAAU;EACV,gBAAgB;EAChB,uBAAuB;EACvB,mBAAmB;EACnB,qBAAqB;EACrB,iCAAiC;AACnC;;AAEA;EACE,iBAAiB;EACjB,qBAAqB;AACvB;;AAEA;EACE,OAAO;AACT;;AAEA;EACE,eAAe;EACf,WAAW;EACX,WAAW;EACX,SAAS;AACX;;AAEA;;EAEE,+BAA+B;AACjC;;AAEA;EACE,cAAc;EACd,iCAAiC;EACjC;AACF;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,8BAA8B;AAChC","sourcesContent":[".chooseField {\n  max-width: 760px;\n  padding: 24px 16px;\n  margin: 0 auto; \n  height: 100%;\n}\n\n.chooseFieldTitle {\n  margin-bottom: 4px;\n}\n\n.chooseFieldDesc {\n  color: var(--textCommonSecondary);\n}\n\n.chooseFieldLoading {\n  display:flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n}\n\n.chooseFieldError {\n  padding: 24px 16px;\n  text-align: center;\n}\n\n.fieldList {\n  border: 1px solid var(--lineColor);\n  border-radius: 8px;\n  margin-top: 32px;\n  margin-bottom: 32px;\n  max-height: calc(100% - 160px);\n  overflow: auto;\n}\n\n.fieldListItem {\n  display: flex;\n  padding: 8px 16px;\n  border-bottom: 1px solid var(--lineColor);\n  align-items: center;\n}\n\n.fieldListItemLeft {\n  width: 40%;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  flex: none !important;\n  color: var(--textCommonSecondary);\n}\n\n.fieldListItemDelete {\n  margin-left: 16px;\n  flex: none !important;\n}\n\n.fieldListItem > div {\n  flex: 1;\n}\n\n.funcAlert {\n  position: fixed;\n  z-index: 10;\n  right: 24px;\n  top: 16px;\n}\n\n.chooseFieldErrorText,\n.chooseFieldMes {\n  color: var(--textDangerDefault);\n}\n\n.chooseFieldText {\n  margin: 24px 0;\n  color: var(--textCommonSecondary);\n  display: flex\n}\n\n.chooseFieldText a {\n  margin-left: 8px;\n}\n\n.chooseFieldAction {\n  display: flex;\n  justify-content: space-between;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"chooseField": "chooseField",
@@ -92,10 +92,10 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 /***/ }),
 
-/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.css":
-/*!************************************************************************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.css ***!
-  \************************************************************************************************************************************************************************/
+/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.css":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.css ***!
+  \******************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -103,16 +103,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".formInput {\n  margin-top: 24px;\n}\n\n.formInput .label {\n  margin-bottom: 4px;\n}\n\n.formInput .formInputRequired {\n  color: var(--textDangerDefault);\n  padding-right: 4px;\n}\n\n.formInput .formInputError {\n  margin-top: 4px;\n  color: var(--textDangerDefault);\n  font-size: 12px;\n  line-height: 18px;\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,+BAA+B;EAC/B,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,+BAA+B;EAC/B,eAAe;EACf,iBAAiB;AACnB","sourcesContent":[".formInput {\n  margin-top: 24px;\n}\n\n.formInput .label {\n  margin-bottom: 4px;\n}\n\n.formInput .formInputRequired {\n  color: var(--textDangerDefault);\n  padding-right: 4px;\n}\n\n.formInput .formInputError {\n  margin-top: 4px;\n  color: var(--textDangerDefault);\n  font-size: 12px;\n  line-height: 18px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".formInput {\n  margin-top: 24px;\n}\n\n.formInput .label {\n  margin-bottom: 4px;\n}\n\n.formInput .formInputRequired {\n  color: var(--textDangerDefault);\n  padding-right: 4px;\n}\n\n.formInput .formInputError {\n  margin-top: 4px;\n  color: var(--textDangerDefault);\n  font-size: 12px;\n  line-height: 18px;\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,+BAA+B;EAC/B,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,+BAA+B;EAC/B,eAAe;EACf,iBAAiB;AACnB","sourcesContent":[".formInput {\n  margin-top: 24px;\n}\n\n.formInput .label {\n  margin-bottom: 4px;\n}\n\n.formInput .formInputRequired {\n  color: var(--textDangerDefault);\n  padding-right: 4px;\n}\n\n.formInput .formInputError {\n  margin-top: 4px;\n  color: var(--textDangerDefault);\n  font-size: 12px;\n  line-height: 18px;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"formInput": "formInput",
@@ -125,44 +125,10 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 /***/ }),
 
-/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/index.css":
-/*!**************************************************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/index.css ***!
-  \**************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, ".importContainer {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 24px;\n}\n\n.importMain {\n  text-align: center;\n}\n\n.importMain .importMainError {\n  color: var(--textDangerDefault);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.importMain .title {\n  margin-bottom: 24px;\n}\n\n.isChecked svg {\n  fill: var(--textBrandDefault);\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/widget-airtable-import/src/index.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,YAAY;EACZ,cAAc;EACd,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;AACf;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,+BAA+B;EAC/B,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,6BAA6B;AAC/B","sourcesContent":[".importContainer {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 24px;\n}\n\n.importMain {\n  text-align: center;\n}\n\n.importMain .importMainError {\n  color: var(--textDangerDefault);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.importMain .title {\n  margin-bottom: 24px;\n}\n\n.isChecked svg {\n  fill: var(--textBrandDefault);\n}"],"sourceRoot":""}]);
-// Exports
-___CSS_LOADER_EXPORT___.locals = {
-	"importContainer": "importContainer",
-	"importMain": "importMain",
-	"importMainError": "importMainError",
-	"title": "title",
-	"isChecked": "isChecked"
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/setting/index.css":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/setting/index.css ***!
-  \**********************************************************************************************************************************************************/
+/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.css":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.css ***!
+  \********************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -179,7 +145,41 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".setting {\n  margin: 32px auto;\n  width: 360px;\n}\n\n.settingTitle {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n}\n\n.setting .formSetting {\n  margin-bottom: 40px;\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/widget-airtable-import/src/setting/index.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;AACvB;;AAEA;EACE,mBAAmB;AACrB","sourcesContent":[".setting {\n  margin: 32px auto;\n  width: 360px;\n}\n\n.settingTitle {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n}\n\n.setting .formSetting {\n  margin-bottom: 40px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".importContainer {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 24px;\n}\n\n.importMain {\n  text-align: center;\n}\n\n.importMain .importMainError {\n  color: var(--textDangerDefault);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.importMain .title {\n  margin-bottom: 24px;\n}\n\n.isChecked svg {\n  fill: var(--textBrandDefault);\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.css"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,YAAY;EACZ,cAAc;EACd,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;AACf;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,+BAA+B;EAC/B,aAAa;EACb,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,6BAA6B;AAC/B","sourcesContent":[".importContainer {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 24px;\n}\n\n.importMain {\n  text-align: center;\n}\n\n.importMain .importMainError {\n  color: var(--textDangerDefault);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.importMain .title {\n  margin-bottom: 24px;\n}\n\n.isChecked svg {\n  fill: var(--textBrandDefault);\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"importContainer": "importContainer",
+	"importMain": "importMain",
+	"importMainError": "importMainError",
+	"title": "title",
+	"isChecked": "isChecked"
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.css":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.css ***!
+  \****************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/sourceMaps.js */ "../node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".setting {\n  margin: 32px auto;\n  width: 360px;\n}\n\n.settingTitle {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n}\n\n.setting .formSetting {\n  margin-bottom: 40px;\n}", "",{"version":3,"sources":["webpack://./../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,qBAAqB;AACvB;;AAEA;EACE,mBAAmB;AACrB","sourcesContent":[".setting {\n  margin: 32px auto;\n  width: 360px;\n}\n\n.settingTitle {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n}\n\n.setting .formSetting {\n  margin-bottom: 40px;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"setting": "setting",
@@ -305,130 +305,17 @@ module.exports = function (item) {
     var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
     var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
     var sourceMapping = "/*# ".concat(data, " */");
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
+    return [content].concat([sourceMapping]).join("\n");
   }
   return [content].join("\n");
 };
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css":
-/*!***********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css ***!
-  \***********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertBySelector.js */ "../node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-
-      options.insert = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-    
-options.domAPI = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ }),
-
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.css":
-/*!********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.css ***!
-  \********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertBySelector.js */ "../node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.css");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-
-      options.insert = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-    
-options.domAPI = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ }),
-
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.css":
-/*!*****************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.css ***!
-  \*****************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css":
+/*!*****************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css ***!
+  \*****************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -448,7 +335,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.css");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css");
 
       
       
@@ -480,10 +367,10 @@ var update = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_no
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/index.css":
-/*!*******************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/index.css ***!
-  \*******************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.css":
+/*!**************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.css ***!
+  \**************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -491,19 +378,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../node_modules/style-loader/dist/runtime/styleDomAPI.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertBySelector.js */ "../node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertBySelector.js */ "../node_modules/style-loader/dist/runtime/insertBySelector.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../node_modules/style-loader/dist/runtime/insertStyleElement.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/index.css");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.css");
 
       
       
@@ -535,10 +422,65 @@ var update = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_no
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/setting/index.css":
-/*!***************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/setting/index.css ***!
-  \***************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.css":
+/*!***********************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.css ***!
+  \***********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertBySelector.js */ "../node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.css":
+/*!*************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.css ***!
+  \*************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -558,7 +500,62 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/widget-airtable-import/src/setting/index.css");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.css":
+/*!*********************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.css ***!
+  \*********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleDomAPI.js */ "../node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertBySelector.js */ "../node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/insertStyleElement.js */ "../node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/style-loader/dist/runtime/styleTagTransform.js */ "../node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _nvm_versions_node_v16_15_0_lib_node_modules_apitable_widget_cli_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_1_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../../.nvm/versions/node/v16.15.0/lib/node_modules/@apitable/widget-cli/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./index.css */ "../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.css");
 
       
       
@@ -902,10 +899,10 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/add-record.tsx":
-/*!****************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/airtable-import/add-record.tsx ***!
-  \****************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/add-record.tsx":
+/*!**********************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/add-record.tsx ***!
+  \**********************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -917,14 +914,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apitable_components__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css");
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../context */ "../../../../../../../../../develop/widget-airtable-import/src/context.ts");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css");
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../context */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/context.ts");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/constants.tsx");
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -1047,7 +1055,7 @@ var AddRecord = function (props) {
                             })];
                     case 6:
                         uploadRlt = _c.sent();
-                        files.push(uploadRlt);
+                        files.push(__assign(__assign({}, uploadRlt), { name: rv.filename }));
                         _c.label = 7;
                     case 7:
                         k++;
@@ -1060,6 +1068,9 @@ var AddRecord = function (props) {
                             recordValue = recordValue.join(',');
                         }
                         else if (field.type !== _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.MultiSelect && typeof recordValue === 'object') {
+                            recordValue = JSON.stringify(recordValue);
+                        }
+                        else if (field.type === _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.Text && typeof recordValue === 'number') {
                             recordValue = JSON.stringify(recordValue);
                         }
                         _c.label = 10;
@@ -1138,10 +1149,10 @@ var AddRecord = function (props) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.tsx":
-/*!***********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.tsx ***!
-  \***********************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.tsx":
+/*!*****************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.tsx ***!
+  \*****************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1155,9 +1166,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
-/* harmony import */ var _add_record__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./add-record */ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/add-record.tsx");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.css");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts");
+/* harmony import */ var _add_record__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./add-record */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/add-record.tsx");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.css");
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -1252,10 +1263,10 @@ var AirTableImport = function (props) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/apis/get-records.ts":
-/*!*****************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/apis/get-records.ts ***!
-  \*****************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/apis/get-records.ts":
+/*!***********************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/apis/get-records.ts ***!
+  \***********************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1263,8 +1274,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getRecords": () => (/* binding */ getRecords)
 /* harmony export */ });
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx");
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! query-string */ "../../../../../../../../../develop/widget-airtable-import/node_modules/query-string/index.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/constants.tsx");
+/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! query-string */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/query-string/index.js");
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -1335,10 +1346,10 @@ var getRecords = function (apiKey, baseId, tableId, query) { return __awaiter(vo
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/apis/index.ts":
-/*!***********************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/apis/index.ts ***!
-  \***********************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/apis/index.ts":
+/*!*****************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/apis/index.ts ***!
+  \*****************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1346,16 +1357,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getRecords": () => (/* reexport safe */ _get_records__WEBPACK_IMPORTED_MODULE_0__.getRecords)
 /* harmony export */ });
-/* harmony import */ var _get_records__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./get-records */ "../../../../../../../../../develop/widget-airtable-import/src/apis/get-records.ts");
+/* harmony import */ var _get_records__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./get-records */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/apis/get-records.ts");
 
 
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.tsx":
-/*!********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.tsx ***!
-  \********************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.tsx":
+/*!**************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.tsx ***!
+  \**************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1365,21 +1376,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @apitable/components */ "@apitable/components");
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apitable_components__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _apis__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../apis */ "../../../../../../../../../develop/widget-airtable-import/src/apis/index.ts");
+/* harmony import */ var _apis__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../apis */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/apis/index.ts");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.css");
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.css");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _components_type_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/type-select */ "../../../../../../../../../develop/widget-airtable-import/src/components/type-select/index.tsx");
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../context */ "../../../../../../../../../develop/widget-airtable-import/src/context.ts");
-/* harmony import */ var _airtable_import__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../airtable-import */ "../../../../../../../../../develop/widget-airtable-import/src/airtable-import/index.tsx");
+/* harmony import */ var _components_type_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/type-select */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/type-select/index.tsx");
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../context */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/context.ts");
+/* harmony import */ var _airtable_import__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../airtable-import */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/airtable-import/index.tsx");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _apitable_icons__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @apitable/icons */ "@apitable/icons");
 /* harmony import */ var _apitable_icons__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_apitable_icons__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/constants.tsx");
 var __assign = (undefined && undefined.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -1595,10 +1606,10 @@ var ChooseField = function (props) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.tsx":
-/*!*****************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.tsx ***!
-  \*****************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.tsx":
+/*!***********************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.tsx ***!
+  \***********************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1610,10 +1621,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @apitable/components */ "@apitable/components");
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_apitable_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.css");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts");
 
 
 
@@ -1636,10 +1647,10 @@ var FormInput = function (props) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/components/type-select/index.tsx":
-/*!******************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/components/type-select/index.tsx ***!
-  \******************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/type-select/index.tsx":
+/*!************************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/type-select/index.tsx ***!
+  \************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1651,7 +1662,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apitable_components__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts");
 
 
 
@@ -1668,10 +1679,10 @@ var TypeSelect = function (props) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx":
-/*!***********************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/constants.tsx ***!
-  \***********************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/constants.tsx":
+/*!*****************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/constants.tsx ***!
+  \*****************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1687,7 +1698,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _utils_i18n__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utils/i18n */ "../../../../../../../../../develop/widget-airtable-import/src/utils/i18n.ts");
+/* harmony import */ var _utils_i18n__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utils/i18n */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/i18n.ts");
 /* harmony import */ var _apitable_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @apitable/icons */ "@apitable/icons");
 /* harmony import */ var _apitable_icons__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_apitable_icons__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
@@ -1823,10 +1834,10 @@ var MAX_FILE_SIZE = 10 * 1024 * 1024;
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/context.ts":
-/*!********************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/context.ts ***!
-  \********************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/context.ts":
+/*!**************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/context.ts ***!
+  \**************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1842,10 +1853,10 @@ var Context = (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)({});
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/setting/index.tsx":
-/*!***************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/setting/index.tsx ***!
-  \***************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.tsx":
+/*!*********************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.tsx ***!
+  \*********************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1857,15 +1868,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @apitable/components */ "@apitable/components");
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_apitable_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_form_input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/form-input */ "../../../../../../../../../develop/widget-airtable-import/src/components/form-input/index.tsx");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/widget-airtable-import/src/setting/index.css");
+/* harmony import */ var _components_form_input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/form-input */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/components/form-input/index.tsx");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.css");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../types */ "../../../../../../../../../develop/widget-airtable-import/src/types/index.ts");
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js");
+/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../types */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/index.ts");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../context */ "../../../../../../../../../develop/widget-airtable-import/src/context.ts");
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../context */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/context.ts");
 var __assign = (undefined && undefined.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -1935,10 +1946,10 @@ var Setting = function (props) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/types/field.ts":
-/*!************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/types/field.ts ***!
-  \************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/field.ts":
+/*!******************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/field.ts ***!
+  \******************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1948,10 +1959,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/types/form-data.ts":
-/*!****************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/types/form-data.ts ***!
-  \****************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/form-data.ts":
+/*!**********************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/form-data.ts ***!
+  \**********************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1970,10 +1981,10 @@ var IFormName;
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/types/index.ts":
-/*!************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/types/index.ts ***!
-  \************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/index.ts":
+/*!******************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/index.ts ***!
+  \******************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1981,9 +1992,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "IFormName": () => (/* reexport safe */ _form_data__WEBPACK_IMPORTED_MODULE_0__.IFormName)
 /* harmony export */ });
-/* harmony import */ var _form_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./form-data */ "../../../../../../../../../develop/widget-airtable-import/src/types/form-data.ts");
-/* harmony import */ var _record__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./record */ "../../../../../../../../../develop/widget-airtable-import/src/types/record.ts");
-/* harmony import */ var _field__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./field */ "../../../../../../../../../develop/widget-airtable-import/src/types/field.ts");
+/* harmony import */ var _form_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./form-data */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/form-data.ts");
+/* harmony import */ var _record__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./record */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/record.ts");
+/* harmony import */ var _field__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./field */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/field.ts");
 
 
 
@@ -1991,10 +2002,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/types/record.ts":
-/*!*************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/types/record.ts ***!
-  \*************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/record.ts":
+/*!*******************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/record.ts ***!
+  \*******************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2004,10 +2015,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/add-fields.ts":
-/*!*****************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/add-fields.ts ***!
-  \*****************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/add-fields.ts":
+/*!***********************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/add-fields.ts ***!
+  \***********************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2017,7 +2028,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -2137,10 +2148,10 @@ var addField = function (fieldMap, datasheet) { return __awaiter(void 0, void 0,
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/get-field-name.ts":
-/*!*********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/get-field-name.ts ***!
-  \*********************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-field-name.ts":
+/*!***************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-field-name.ts ***!
+  \***************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2148,11 +2159,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getFields": () => (/* binding */ getFields)
 /* harmony export */ });
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/constants.tsx");
 var __read = (undefined && undefined.__read) || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
@@ -2182,6 +2193,13 @@ var getFields = function (records) {
                 var type = getFieldType(fieldValue);
                 pre[fieldKey] = [type, []];
             }
+            // if fieldValue has multiple types, set it as text type
+            if (pre[fieldKey]) {
+                var type = getFieldType(fieldValue);
+                if (pre[fieldKey][0] != type) {
+                    (0,lodash__WEBPACK_IMPORTED_MODULE_0__.set)(pre[fieldKey], 0, _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.Text);
+                }
+            }
             // Collect multi-select default values and add default options in addField
             // fieldValue is array
             if (pre[fieldKey][0] === _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.MultiSelect) {
@@ -2210,12 +2228,15 @@ var getFieldType = function (fieldValue) {
         if ((_a = fieldValue[0]) === null || _a === void 0 ? void 0 : _a.url) {
             return _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.Attachment;
         }
+        if (typeof fieldValue === 'object') {
+            return _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.Text;
+        }
         return _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.MultiSelect;
     }
     else if (typeof fieldValue === 'boolean') {
         return _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.Checkbox;
     }
-    else if (typeof fieldValue === 'number') {
+    else if (typeof fieldValue === 'number' && !isNaN(fieldValue)) {
         return _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.Number;
     }
     return _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__.FieldType.Text;
@@ -2224,10 +2245,10 @@ var getFieldType = function (fieldValue) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/get-file-blob.ts":
-/*!********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/get-file-blob.ts ***!
-  \********************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-file-blob.ts":
+/*!**************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-file-blob.ts ***!
+  \**************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2289,10 +2310,10 @@ var getFileBlob = function (url) { return __awaiter(void 0, void 0, void 0, func
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/get-options.ts":
-/*!******************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/get-options.ts ***!
-  \******************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-options.ts":
+/*!************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-options.ts ***!
+  \************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2302,9 +2323,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/widget-airtable-import/src/constants.tsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/constants.tsx");
 
 
 
@@ -2325,10 +2346,10 @@ var getOptions = function (value, fieldValue) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/i18n.ts":
-/*!***********************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/i18n.ts ***!
-  \***********************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/i18n.ts":
+/*!*****************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/i18n.ts ***!
+  \*****************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2336,17 +2357,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Strings": () => (/* binding */ Strings)
 /* harmony export */ });
-/* harmony import */ var _strings_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../strings.json */ "../../../../../../../../../develop/widget-airtable-import/src/strings.json");
+/* harmony import */ var _strings_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../strings.json */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/strings.json");
 
 var Strings = _strings_json__WEBPACK_IMPORTED_MODULE_0__.strings;
 
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts":
-/*!************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts ***!
-  \************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts":
+/*!******************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts ***!
+  \******************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2360,13 +2381,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "sleep": () => (/* reexport safe */ _sleep__WEBPACK_IMPORTED_MODULE_3__.sleep),
 /* harmony export */   "validateConfig": () => (/* reexport safe */ _validate_config__WEBPACK_IMPORTED_MODULE_0__.validateConfig)
 /* harmony export */ });
-/* harmony import */ var _validate_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./validate-config */ "../../../../../../../../../develop/widget-airtable-import/src/utils/validate-config.ts");
-/* harmony import */ var _get_field_name__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./get-field-name */ "../../../../../../../../../develop/widget-airtable-import/src/utils/get-field-name.ts");
-/* harmony import */ var _add_fields__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./add-fields */ "../../../../../../../../../develop/widget-airtable-import/src/utils/add-fields.ts");
-/* harmony import */ var _sleep__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sleep */ "../../../../../../../../../develop/widget-airtable-import/src/utils/sleep.ts");
-/* harmony import */ var _get_options__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./get-options */ "../../../../../../../../../develop/widget-airtable-import/src/utils/get-options.ts");
-/* harmony import */ var _get_file_blob__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./get-file-blob */ "../../../../../../../../../develop/widget-airtable-import/src/utils/get-file-blob.ts");
-/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./i18n */ "../../../../../../../../../develop/widget-airtable-import/src/utils/i18n.ts");
+/* harmony import */ var _validate_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./validate-config */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/validate-config.ts");
+/* harmony import */ var _get_field_name__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./get-field-name */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-field-name.ts");
+/* harmony import */ var _add_fields__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./add-fields */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/add-fields.ts");
+/* harmony import */ var _sleep__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sleep */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/sleep.ts");
+/* harmony import */ var _get_options__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./get-options */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-options.ts");
+/* harmony import */ var _get_file_blob__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./get-file-blob */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/get-file-blob.ts");
+/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./i18n */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/i18n.ts");
 
 
 
@@ -2378,10 +2399,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/sleep.ts":
-/*!************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/sleep.ts ***!
-  \************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/sleep.ts":
+/*!******************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/sleep.ts ***!
+  \******************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2394,10 +2415,10 @@ var sleep = function (ms) { return new Promise(function (resolve) { return setTi
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/utils/validate-config.ts":
-/*!**********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/utils/validate-config.ts ***!
-  \**********************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/validate-config.ts":
+/*!****************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/validate-config.ts ***!
+  \****************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2407,8 +2428,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @apitable/widget-sdk */ "@apitable/widget-sdk");
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../types */ "../../../../../../../../../develop/widget-airtable-import/src/types/index.ts");
-/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./i18n */ "../../../../../../../../../develop/widget-airtable-import/src/utils/i18n.ts");
+/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../types */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/types/index.ts");
+/* harmony import */ var _i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./i18n */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/i18n.ts");
 
 
 
@@ -2429,10 +2450,10 @@ var validateConfig = function (formData) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/node_modules/decode-uri-component/index.js":
-/*!************************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/node_modules/decode-uri-component/index.js ***!
-  \************************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/decode-uri-component/index.js":
+/*!******************************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/decode-uri-component/index.js ***!
+  \******************************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -2534,10 +2555,10 @@ module.exports = function (encodedURI) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/node_modules/filter-obj/index.js":
-/*!**************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/node_modules/filter-obj/index.js ***!
-  \**************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/filter-obj/index.js":
+/*!********************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/filter-obj/index.js ***!
+  \********************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -2562,10 +2583,10 @@ module.exports = function (obj, predicate) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js":
-/*!***********************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/node_modules/lodash/lodash.js ***!
-  \***********************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js":
+/*!*****************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/lodash/lodash.js ***!
+  \*****************************************************************************************************************/
 /***/ (function(module, exports, __webpack_require__) {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
@@ -19774,18 +19795,18 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/node_modules/query-string/index.js":
-/*!****************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/node_modules/query-string/index.js ***!
-  \****************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/query-string/index.js":
+/*!**********************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/query-string/index.js ***!
+  \**********************************************************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-const strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "../../../../../../../../../develop/widget-airtable-import/node_modules/strict-uri-encode/index.js");
-const decodeComponent = __webpack_require__(/*! decode-uri-component */ "../../../../../../../../../develop/widget-airtable-import/node_modules/decode-uri-component/index.js");
-const splitOnFirst = __webpack_require__(/*! split-on-first */ "../../../../../../../../../develop/widget-airtable-import/node_modules/split-on-first/index.js");
-const filterObject = __webpack_require__(/*! filter-obj */ "../../../../../../../../../develop/widget-airtable-import/node_modules/filter-obj/index.js");
+const strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/strict-uri-encode/index.js");
+const decodeComponent = __webpack_require__(/*! decode-uri-component */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/decode-uri-component/index.js");
+const splitOnFirst = __webpack_require__(/*! split-on-first */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/split-on-first/index.js");
+const filterObject = __webpack_require__(/*! filter-obj */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/filter-obj/index.js");
 
 const isNullOrUndefined = value => value === null || value === undefined;
 
@@ -20267,10 +20288,10 @@ exports.exclude = (input, filter, options) => {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/node_modules/split-on-first/index.js":
-/*!******************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/node_modules/split-on-first/index.js ***!
-  \******************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/split-on-first/index.js":
+/*!************************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/split-on-first/index.js ***!
+  \************************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -20300,10 +20321,10 @@ module.exports = (string, separator) => {
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/node_modules/strict-uri-encode/index.js":
-/*!*********************************************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/node_modules/strict-uri-encode/index.js ***!
-  \*********************************************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/strict-uri-encode/index.js":
+/*!***************************************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/node_modules/strict-uri-encode/index.js ***!
+  \***************************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -20357,10 +20378,10 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_react__;
 
 /***/ }),
 
-/***/ "../../../../../../../../../develop/widget-airtable-import/src/strings.json":
-/*!**********************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/strings.json ***!
-  \**********************************************************************************/
+/***/ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/strings.json":
+/*!****************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/strings.json ***!
+  \****************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -20469,9 +20490,9 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
 "use strict";
-/*!*******************************************************************************!*\
-  !*** ../../../../../../../../../develop/widget-airtable-import/src/index.tsx ***!
-  \*******************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** ../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.tsx ***!
+  \*************************************************************************************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Main": () => (/* binding */ Main)
@@ -20482,11 +20503,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_apitable_widget_sdk__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @apitable/components */ "@apitable/components");
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_apitable_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _setting__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./setting */ "../../../../../../../../../develop/widget-airtable-import/src/setting/index.tsx");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/widget-airtable-import/src/index.css");
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils */ "../../../../../../../../../develop/widget-airtable-import/src/utils/index.ts");
-/* harmony import */ var _choose_field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./choose-field */ "../../../../../../../../../develop/widget-airtable-import/src/choose-field/index.tsx");
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./context */ "../../../../../../../../../develop/widget-airtable-import/src/context.ts");
+/* harmony import */ var _setting__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./setting */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/setting/index.tsx");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.css */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/index.css");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/utils/index.ts");
+/* harmony import */ var _choose_field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./choose-field */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/choose-field/index.tsx");
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./context */ "../../../../../../../../../develop/apitable-projects/widget-airtable-import/src/context.ts");
 var __read = (undefined && undefined.__read) || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
