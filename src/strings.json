@@ -50,7 +50,7 @@
     },
     "field_edit_title": {
       "zh_CN": "请为下面待导入的 Airtable 字段选择字段类型，导入完成后将在维格表中创建相应的字段并填充对应的数据",
-			"en_US": "Please select the field type for the airtable field to be imported below. After importing, the corresponding field will be created in the APITable and the corresponding data will be filled"
+			"en_US": "Please select the field type for the airtable field to be imported below. After importing, the corresponding field will be created in the AITable and the corresponding data will be filled"
     },
     "pre_field_name": {
       "zh_CN": "待导入的字段名",

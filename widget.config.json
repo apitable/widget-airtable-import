@@ -10,13 +10,13 @@
   "cover": "./cover.png",
   "authorIcon": "./author_icon.png",
   "description": {
-    "zh-CN": "支持从 Airtable 导入数据到 APITable 中，快速开始使用 APITable 发展你的业务。",
-    "en-US": "Support importing data from Airtable to APITable, and quickly start using the APITable to develop your business."
+    "zh-CN": "支持从 Airtable 导入数据到 AITable 中，快速开始使用 AITable 发展你的业务。",
+    "en-US": "Support importing data from Airtable to AITable, and quickly start using the AITable to develop your business."
   },
   "sandbox": true,
-  "authorName": "APITable",
-  "authorLink": "https://apitable.com",
-  "authorEmail": "developer@apitable.com",
-  "website": "https://help.apitable.com/docs/guide/intro-widget-import-from-airtable",
+  "authorName": "AITable",
+  "authorLink": "https://aitable.ai",
+  "authorEmail": "developer@aitable.ai",
+  "website": "https://help.aitable.ai/docs/guide/intro-widget-import-from-airtable",
   "globalPackageId": "wpk098vuAfpQa"
 }
