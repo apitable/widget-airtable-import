@@ -103,7 +103,7 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
           {typeof data?.error === 'object' ? data?.error.message : data?.error}
           </span>
           <LinkButton
-            href="https://help.apitable.com/docs/guide/intro-widget-import-from-airtable/"
+            href="https://help.aitable.ai/docs/guide/intro-widget-import-from-airtable/"
             target="_blank"
           >
             {t(Strings.help)}

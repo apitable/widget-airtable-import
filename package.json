@@ -1,13 +1,13 @@
 {
-  "version": "0.0.29",
+  "version": "0.0.30",
   "description": "APITable widget to import data from airtable",
   "engines": {
     "node": ">=8.x"
   },
   "keywords": [
-    "APITable",
+    "AITable",
     "widgets",
-    "APITable widgets"
+    "AITable widgets"
   ],
   "main": "./dist/index",
   "module": "./dist/index",

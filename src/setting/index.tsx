@@ -41,7 +41,7 @@ export const Setting: React.FC<ISetting> = props => {
       <Typography variant="h6" className={styles.settingTitle}>
         1. {t(Strings.setting_title)}
         <LinkButton
-          href="https://help.apitable.com/docs/guide/intro-widget-import-from-airtable/"
+          href="https://help.aitable.ai/docs/guide/intro-widget-import-from-airtable/"
           target="_blank"
           color={colorVars.textCommonSecondary}
         >
