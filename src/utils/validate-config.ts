@@ -4,7 +4,7 @@ import { Strings } from './i18n';
 
 export const validateConfig = (formData: IFormData) => {
   const errors: IError = {};
-  if (!formData.apiKey || !formData.apiKey.startsWith('key')) {
+  if (!formData.apiKey) {
     errors[IFormName.ApiKey] = `${t(Strings.form_valid)} API Key`;
   }
   if (!formData.baseId || !formData.baseId.startsWith('app')) {
