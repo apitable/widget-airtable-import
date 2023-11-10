@@ -1,4 +1,4 @@
-import { FieldType, t } from '@apitable/widget-sdk';
+import { FieldType, t , FieldIconMap} from '@apitable/widget-sdk';
 import { Strings } from './utils/i18n';
 import {
   ColumnAttachmentFilled,
@@ -25,23 +25,7 @@ import {
 import React from 'react';
 import { Box, colorVars } from '@apitable/components';
 
-export const FieldIconMap = {
-  [FieldType.Attachment]: ColumnAttachmentFilled,
-  [FieldType.URL]: ColumnUrlOutlined,
-  [FieldType.Email]: ColumnEmailFilled,
-  [FieldType.Phone]: ColumnPhoneFilled,
-  [FieldType.Checkbox]: ColumnCheckboxFilled,
-  [FieldType.Rating]: ColumnRatingFilled,
-  [FieldType.Member]: AccountFilled,
-  [FieldType.Formula]: ColumnFormulaFilled,
-  [FieldType.Currency]: ColumnCurrencyFilled,
-  [FieldType.Percent]: ColumnPercentFilled,
-  [FieldType.AutoNumber]: ColumnAutonumberFilled,
-  [FieldType.CreatedTime]: ColumnCreatedtimeFilled,
-  [FieldType.LastModifiedTime]: ColumnLastmodifiedtimeFilled,
-  [FieldType.CreatedBy]: ColumnCreatedbyFilled,
-  [FieldType.LastModifiedBy]: ColumnLastmodifiedbyFilled,
-};
+export  {FieldIconMap}
 
 export const AIRTABLE_URL = 'https://api.airtable.com';
 
@@ -201,7 +185,7 @@ export const TYPE_OPTIONS = [
         {t(Strings.phone)}
       </div>
     ),
-    value: FieldType.Phone 
+    value: FieldType.Phone
   },
   {
     label: (
@@ -212,7 +196,7 @@ export const TYPE_OPTIONS = [
         {t(Strings.attachment)}
       </div>
     ),
-    value: FieldType.Attachment 
+    value: FieldType.Attachment
   },
 ]
 
