@@ -1,7 +1,7 @@
 .chooseField {
   max-width: 760px;
   padding: 24px 16px;
-  margin: 0 auto; 
+  margin: 0 auto;
   height: 100%;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .chooseFieldLoading {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -74,7 +74,7 @@
 .chooseFieldText {
   margin: 24px 0;
   color: var(--textCommonSecondary);
-  display: flex
+  display: flex;
 }
 
 .chooseFieldText a {

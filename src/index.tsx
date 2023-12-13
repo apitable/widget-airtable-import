@@ -8,56 +8,61 @@ import { Strings, validateConfig } from './utils';
 import { ChooseField } from './choose-field';
 import { Context } from './context';
 
-
 export const Main: React.FC = () => {
-
   const datasheet = useDatasheet();
   const [formData] = useCloudStorage<IFormData>(`airtable-import-${datasheet?.datasheetId}`, {
-    apiKey: '',
+    personalAccessToken: '',
     baseId: '',
-    tableId: ''
+    tableId: '',
   });
 
   const { isFullscreen, toggleFullscreen } = useViewport();
-
   const [step, setStep] = useState(0);
+
+  const [isBasesLoaded, setIsBasesLoaded] = useState(false);
+  const [isTablesLoaded, setIsTablesLoaded] = useState(false);
 
   useEffect(() => {
     if (!isFullscreen) {
       setStep(0);
     }
-  }, [isFullscreen])
+  }, [isFullscreen]);
   const errors = validateConfig(formData);
   const handleNext = () => {
     if (!isFullscreen) {
       toggleFullscreen(true);
     }
     setStep(step + 1);
-  }
+  };
 
   return (
-   <div className={styles.importContainer}>
-     <Context.Provider
+    <div className={styles.importContainer}>
+      <Context.Provider
         value={{
-          step, setStep
+          step,
+          setStep,
         }}
       >
         {step === 0 && (
           <div className={styles.importMain}>
-            <div className={styles.title}>
-              {
-                t(Strings.start_import_title)
-              }
-            </div>
-            <Button  color="primary" onClick={() => handleNext()}>
+            <div className={styles.title}>{t(Strings.start_import_title)}</div>
+            <Button color="primary" onClick={() => handleNext()}>
               {t(Strings.start_import)}
             </Button>
           </div>
         )}
-        {step === 1 && <Setting errors={errors} />}
+        {step === 1 && (
+          <Setting
+            errors={errors}
+            isBasesLoaded={isBasesLoaded}
+            isTablesLoaded={isTablesLoaded}
+            setIsBasesLoaded={setIsBasesLoaded}
+            setIsTablesLoaded={setIsTablesLoaded}
+          />
+        )}
         {step > 1 && <ChooseField formData={formData} />}
       </Context.Provider>
-   </div>
+    </div>
   );
 };
 

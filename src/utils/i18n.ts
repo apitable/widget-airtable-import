@@ -1,3 +1,3 @@
-import stringsJson from '../strings.json';
+import stringsJson from "../../strings.json";
 
 export const Strings = stringsJson.strings;

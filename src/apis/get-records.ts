@@ -11,20 +11,20 @@ export const getRecords = async (apiKey: string, baseId: string, tableId: string
   // _query['fields[]'] = 'number';
 
   const queryStr = queryString.stringify(_query);
-  
+
   const url = `${AIRTABLE_URL}/${AIRTABLE_API_VERSION}/${baseId}/${tableId}?${queryStr}`;
 
   const response = await fetch(url, {
     method: 'GET',
     headers: {
-      'Accept': 'application/json',
+      Accept: 'application/json',
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' + apiKey,
-      'Host': AIRTABLE_URL
-    }
+      Authorization: 'Bearer ' + apiKey,
+      Host: AIRTABLE_URL,
+    },
   });
 
   const json = await response.json();
 
-  return json
-}
+  return json;
+};
