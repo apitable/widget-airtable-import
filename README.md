@@ -1,21 +1,14 @@
 # Widget `airtable-import`
 
-Support for importing data from Airtable into APITable.
+You can import data from Airtable into AITable to quickly start using AITable to grow your business.
 
+## Get Personal Access Token
 
-## Get Airtable API Key Configuration
+To use the widget, you first need to get a Personal Access Token from your Airtable account. Once you have obtained it, simply enter it into the widget to begin fetching raw data and importing it.
 
-1. How to get the API Key
+You can use [this link](https://airtable.com/create/tokens) to create and manage your Personal Access Token. Please note that a Personal Access Token is not the same as an API Key used previously. Airtable has announced that they will stop supporting API Keys by the end of January 2024. To learn more details, you can read [this article](https://support.airtable.com/docs/airtable-api-key-deprecation-notice).
 
-You need Airtable API Key to get the data source, Airtable API Key can be obtained by referring to [Airtable's official documentation](https://support.airtable.com/hc/en-us/articles/219046777) or click directly to [Airtable Account](https://airtable.com/account) to get it.
-
-2. How to get the Base ID
-
-We need the corresponding Airtable Base ID to get the data source, Airtable Base ID can be obtained by clicking into [Airtable Rest API](https://airtable.com/api), first select the Base you want to import, then copy it from the INTRODUCTION page.
-
-3. How to get the Table ID
-
-We need the corresponding Airtable Table ID to get the data source, Airtable Table ID can be obtained by clicking into [Airtable Rest API](https://airtable.com/api) , first select the Table you want to import, and then get it from the introduction.
+After accessing the page for creating and managing personal access tokens, simply click on the "Generate new token" button to create a fresh Personal Access Token.
 
 ## Supported column types
 
@@ -37,4 +30,3 @@ We need the corresponding Airtable Table ID to get the data source, Airtable Tab
 - [ ] Member
 - [ ] MagicLink
 - [ ] MagicLookUp
-

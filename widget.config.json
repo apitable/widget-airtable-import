@@ -1,6 +1,6 @@
 {
-  "packageId": "wpkz6C07DNYug",
-  "spaceId": "spczxAHlFydX0",
+  "packageId": "wpk9PzB5q68Ek",
+  "spaceId": "spcS0eZxZ8mSA",
   "entry": "./src/index.tsx",
   "name": {
     "zh-CN": "Airtable 导入",

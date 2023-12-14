@@ -17,10 +17,12 @@ interface IChooseField {
 }
 
 interface IError {
-  error: {
-    message: string;
-    type: string;
-  } | string
+  error:
+    | {
+        message: string;
+        type: string;
+      }
+    | string;
 }
 
 export const ChooseField: React.FC<IChooseField> = (props) => {
@@ -29,7 +31,7 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
   const loadRef = useRef(false);
   // Airtable api limits that the data must be obtained in pages, with a maximum of 100 entries each time
   // The existence of offset indicates that there is still data. Continue to request
-  const [data, setData]= useState<IRecord[] | IError>([]);
+  const [data, setData] = useState<IRecord[] | IError>([]);
 
   useEffect(() => {
     const load = async () => {
@@ -37,10 +39,10 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
       let fetching = true;
       let offset = '';
       let records: IRecord[] = [];
-      while(fetching) {
-        const rlt = await getRecords(formData.apiKey, formData.baseId, formData.tableId, {
+      while (fetching) {
+        const rlt = await getRecords(formData.personalAccessToken, formData.baseId, formData.tableId, {
           offset,
-          view: formData.viewId || ''
+          view: formData.viewId || '',
         });
         if (rlt.error) {
           loadRef.current = false;
@@ -54,9 +56,9 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
       }
       loadRef.current = false;
       setData(records);
-    }
+    };
     load();
-  }, [])
+  }, []);
 
   const isError = !Array.isArray(data);
 
@@ -71,7 +73,7 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
     } else {
       setFieldMap({});
     }
-  }, [isDataChange])
+  }, [isDataChange]);
 
   const fieldCount = keys(fieldMap).length;
 
@@ -81,62 +83,57 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
         content: t(Strings.over_200_fields),
         type: 'error',
         closable: true,
-        duration: 0
+        duration: 0,
       });
     }
-  }, [fieldCount])
+  }, [fieldCount]);
 
-  if (loadRef.current) return (
-    <div className={styles.chooseFieldLoading}>
-      {t(Strings.get_data)}...
-    </div>
-  );
+  if (loadRef.current) return <div className={styles.chooseFieldLoading}>{t(Strings.get_data)}...</div>;
 
   if (isError) {
     return (
       <div className={styles.chooseFieldError}>
-        {typeof data?.error === 'object' && <Typography variant="body3"  className={styles.chooseFieldMes}>
-          {data?.error.type}
-        </Typography>}
+        {typeof data?.error === 'object' && (
+          <Typography variant="body3" className={styles.chooseFieldMes}>
+            {data?.error.type}
+          </Typography>
+        )}
         <Typography variant="h6" className={styles.chooseFieldText}>
-          <span className={styles.chooseFieldErrorText}>
-          {typeof data?.error === 'object' ? data?.error.message : data?.error}
-          </span>
-          <LinkButton
-            href="https://help.aitable.ai/docs/guide/intro-widget-import-from-airtable/"
-            target="_blank"
-          >
+          <span className={styles.chooseFieldErrorText}>{typeof data?.error === 'object' ? data?.error.message : data?.error}</span>
+          <LinkButton href="https://help.vika.cn/docs/guide/intro-widget-import-from-airtable/" target="_blank">
             {t(Strings.help)}
           </LinkButton>
         </Typography>
-        <Button onClick={() => {
-          setStep(1);
-  
-        }} color="primary">
+        <Button
+          onClick={() => {
+            setStep(1);
+          }}
+          color="primary"
+        >
           {t(Strings.reset)}
         </Button>
       </div>
-    )
+    );
   }
 
   const handleNext = () => {
     setStep(3);
-  }
+  };
 
   const handlePre = () => {
     setStep(1);
-  }
+  };
 
   // console.log('fieldMap', fieldMap);
 
   if (step === 3) {
-    return <AirTableImport fieldMap={fieldMap} records={data} />
+    return <AirTableImport fieldMap={fieldMap} records={data} />;
   }
-  
+
   return (
     <div className={styles.chooseField}>
       <Typography variant="h6" className={styles.chooseFieldTitle}>
-        2. {t(Strings.choose_field_type)} 
+        2. {t(Strings.choose_field_type)}
       </Typography>
       <Typography variant="body2" className={styles.chooseFieldDesc}>
         {t(Strings.field_edit_title)}
@@ -144,13 +141,9 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
       <div className={styles.fieldList}>
         <div className={styles.fieldListItem}>
           <div className={styles.fieldListItemLeft}>
-            <Typography variant="h7">
-              {t(Strings.pre_field_name)}
-            </Typography>
+            <Typography variant="h7">{t(Strings.pre_field_name)}</Typography>
           </div>
-          <Typography variant="h7">
-            {t(Strings.field_type)}
-          </Typography>
+          <Typography variant="h7">{t(Strings.field_type)}</Typography>
         </div>
         {toPairs(fieldMap).map(([fieldKey, fieldType], index) => {
           return (
@@ -162,8 +155,8 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
                 setValue={(val) => {
                   setFieldMap({
                     ...fieldMap,
-                    [fieldKey]: [val, fieldType[1]]
-                  })
+                    [fieldKey]: [val, fieldType[1]],
+                  });
                 }}
               />
               <IconButton
@@ -176,36 +169,34 @@ export const ChooseField: React.FC<IChooseField> = (props) => {
                 }}
               />
             </div>
-          )
+          );
         })}
       </div>
       <div className={styles.chooseFieldAction}>
-        <TextButton onClick={() => handlePre()}>
-          {t(Strings.pre)}
-        </TextButton>
-        <Button disabled={fieldCount > MAX_FIELDS_LEN} onClick={() => {
-          const hasAttachment = values(fieldMap).filter(fm => fm[0] === FieldType.Attachment).length > 0
-          if (hasAttachment) {
-            Modal.warning({
-              title: t(Strings.waring_import_title),
-              content: (
-                <div className={styles.chooseFieldWarn}>
-                  {t(Strings.waring_file_upload)}
-                </div>
-              ),
-              okText: t(Strings.ok),
-              closable: true,
-              onOk: () => {
-                handleNext();
-              }
-            });
-          } else {
-            handleNext();
-          }
-        }} color="primary">
+        <TextButton onClick={() => handlePre()}>{t(Strings.pre)}</TextButton>
+        <Button
+          disabled={fieldCount > MAX_FIELDS_LEN}
+          onClick={() => {
+            const hasAttachment = values(fieldMap).filter((fm) => fm[0] === FieldType.Attachment).length > 0;
+            if (hasAttachment) {
+              Modal.warning({
+                title: t(Strings.waring_import_title),
+                content: <div className={styles.chooseFieldWarn}>{t(Strings.waring_file_upload)}</div>,
+                okText: t(Strings.ok),
+                closable: true,
+                onOk: () => {
+                  handleNext();
+                },
+              });
+            } else {
+              handleNext();
+            }
+          }}
+          color="primary"
+        >
           {t(Strings.start_import)}
         </Button>
       </div>
     </div>
-  )
-}
+  );
+};

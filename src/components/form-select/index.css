@@ -1,0 +1,19 @@
+.formSelect {
+  margin-top: 24px;
+}
+
+.formSelect .label {
+  margin-bottom: 4px;
+}
+
+.formSelect .formSelectRequired {
+  color: var(--textDangerDefault);
+  padding-right: 4px;
+}
+
+.formSelect .formSelectError {
+  margin-top: 4px;
+  color: var(--textDangerDefault);
+  font-size: 12px;
+  line-height: 18px;
+}

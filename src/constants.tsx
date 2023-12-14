@@ -49,71 +49,67 @@ export const AIRTABLE_API_VERSION = 'v0';
 
 export const FIELD_GROUPS = {
   boolean: [FieldType.Checkbox],
-  number: [
-    FieldType.Number, FieldType.Rating, FieldType.Currency, FieldType.Percent
-  ],
+  number: [FieldType.Number, FieldType.Rating, FieldType.Currency, FieldType.Percent],
   array: [FieldType.MultiSelect, FieldType.Text, FieldType.SingleText],
-  string: [
-    FieldType.Text, FieldType.SingleText, FieldType.Email, FieldType.Phone, FieldType.URL, FieldType.Phone,
-  ],
-  attach: [FieldType.Attachment]
-}
+  string: [FieldType.Text, FieldType.SingleText, FieldType.Email, FieldType.Phone, FieldType.URL, FieldType.Phone],
+  attach: [FieldType.Attachment],
+};
 
 export const TYPE_OPTIONS = [
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnLongtextFilled color={colorVars.thirdLevelText}/>
+          <ColumnLongtextFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.long_text)}
       </div>
     ),
-    value: FieldType.Text
+    value: FieldType.Text,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnTextFilled color={colorVars.thirdLevelText}/>
+          <ColumnTextFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.single_text)}
       </div>
     ),
-    value: FieldType.SingleText
+    value: FieldType.SingleText,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnMultipleFilled color={colorVars.thirdLevelText}/>
+          <ColumnMultipleFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.multi_select)}
       </div>
     ),
-    value: FieldType.MultiSelect
+    value: FieldType.MultiSelect,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnSingleFilled color={colorVars.thirdLevelText}/>
+          <ColumnSingleFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.select)}
       </div>
     ),
-    value: FieldType.SingleSelect
+    value: FieldType.SingleSelect,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnFigureFilled color={colorVars.thirdLevelText}/>
+          <ColumnFigureFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.number)}
       </div>
     ),
-    value: FieldType.Number
+    value: FieldType.Number,
   },
   // {
   //   label: (
@@ -130,12 +126,12 @@ export const TYPE_OPTIONS = [
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnUrlOutlined color={colorVars.thirdLevelText}/>
+          <ColumnUrlOutlined color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.url)}
       </div>
     ),
-    value: FieldType.URL
+    value: FieldType.URL,
   },
   {
     label: (
@@ -146,77 +142,76 @@ export const TYPE_OPTIONS = [
         {t(Strings.email)}
       </div>
     ),
-    value: FieldType.Email
+    value: FieldType.Email,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnCheckboxFilled color={colorVars.thirdLevelText}/>
+          <ColumnCheckboxFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.checkbox)}
       </div>
     ),
-    value: FieldType.Checkbox
+    value: FieldType.Checkbox,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnRatingFilled color={colorVars.thirdLevelText}/>
+          <ColumnRatingFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.rate)}
       </div>
     ),
-    value: FieldType.Rating
+    value: FieldType.Rating,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnCurrencyFilled color={colorVars.thirdLevelText}/>
+          <ColumnCurrencyFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.currency)}
       </div>
     ),
-    value: FieldType.Currency
+    value: FieldType.Currency,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnPercentFilled color={colorVars.thirdLevelText}/>
+          <ColumnPercentFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.percent)}
       </div>
     ),
-    value: FieldType.Percent
+    value: FieldType.Percent,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnPhoneFilled color={colorVars.thirdLevelText}/>
+          <ColumnPhoneFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.phone)}
       </div>
     ),
-    value: FieldType.Phone 
+    value: FieldType.Phone,
   },
   {
     label: (
       <div>
         <Box margin="4px" as="span">
-          <ColumnAttachmentFilled color={colorVars.thirdLevelText}/>
+          <ColumnAttachmentFilled color={colorVars.thirdLevelText} />
         </Box>
         {t(Strings.attachment)}
       </div>
     ),
-    value: FieldType.Attachment 
+    value: FieldType.Attachment,
   },
-]
+];
 
 export const MAX_FIELDS_LEN = 200;
 
 export const MAX_FILE_SIZE = 10 * 1024 * 1024;
-
